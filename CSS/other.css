@@ -1,0 +1,200 @@
+/* common parts between pages */
+body {
+  background-color: #FCE8D5;
+  margin: 0px;
+}
+
+#title {
+  background-color: #D16008;
+  color: white;
+  padding: 40px;
+  font-size: 40pt;
+  text-align: center;
+  font-family: "Georgia", sans-serif;
+}
+
+.space {
+  padding: 300px;
+}
+
+.mainNav {
+  overflow: hidden;
+}
+
+a {
+  background-color: #A34D17;
+  text-decoration: none;
+  color: white;
+  float: left;
+  width: 25%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-family: "Times New Roman", sans-serif;
+}
+
+a:hover {
+  background-color: #1c8aff;
+}
+
+#footer {
+  background-color: #572B14;
+  padding: 1px;
+  text-align: center;
+  font-family: "Georgia", sans-serif;
+  color: white;
+}
+
+/* columns and rows */
+.col-1 {
+  width: 20%;
+}
+
+.col-2 {
+  width: 60%;
+}
+
+.col-3 {
+  width: 20%;
+}
+
+.col-4 {
+  width: 100%;
+}
+
+.col-5 {
+  width: 50%;
+}
+
+.col-gap {
+  padding: 5px;
+  width: 20%;
+  background-color: #FCE8D5;
+}
+
+[class*="col-"] {
+  float: left;
+  text-align: center;
+}
+
+.row-1 {
+  padding: 5px;
+  overflow: hidden;
+}
+
+.row-1::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.row-2::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.row-3::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.row-4::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.row-5::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.row-6::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.row-7::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.row-8::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.row-9::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#offer {
+  font-family: "Georgia", sans-serif;
+}
+
+.form {
+background-color: #A34D17;
+margin: 15px;
+padding: 10px;
+}
+
+.formTitle {
+  font-family: "Georgia", sans-serif;
+}
+
+.box {
+  padding: 20px;
+  background-color: #FCE8D5;
+  text-align: center;
+}
+
+.imgButton {
+  padding: 30px;
+  background-color: #FCE8D5;
+  border: none;
+}
+
+.imgButton:hover {
+  background-color: #1c8aff;
+}
+
+.holidayProducts {
+  text-align: center;
+}
+
+.faq {
+  text-decoration: underline;
+  text-align: center;
+  padding: 10px;
+  font-family: "Georgia", sans-serif;
+}
+
+.questions {
+  text-align: center;
+}
+
+.subTitle {
+  text-align: center;
+  font-family: "Georgia", sans-serif;
+}
+
+.info {
+  text-align: center;
+  font-size: 15pt;
+}
+
+
+/* for use on other devices */
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}

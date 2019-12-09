@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <link rel = "stylesheet" type = "text/css" href = "CSS/other.css">
+
+  <meta charset = "UTF-8">
+  <meta name = "description" content = "Delicious, high-quality Belgian chocolates made by a hard-working and dedicated business">
+  <meta name = "keywords" content = "Belgian chocolate, high quality, delicious, tasty, vegetarian, business">
+  <meta name = "author" content = "Jessica">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+
+  <title>Basket</title>
+
+</head>
+
+<body>
+
+
+
+<h1 id = "title">Basket</h1>
+
+<!-- Navigation between pages -->
+<div class = "mainNav">
+  <a class = "button-1" href = "index.html">Welcome</a>
+  <a class = "button-2" href = "products.html">Products</a>
+  <a class = "button-3" href = "questions.html">Questions</a>
+  <a class = "button-4" href = "aboutUs.html">About Us</a>
+</div>
+
+<div class = "row-1">
+
+  <div class = "col-gap">
+
+  </div>
+
+  <!-- Form for product purchase -->
+  <div class = "col-2">
+    <div class = "form">
+          <h2 class = "formTitle">Please fill out the form below if you want to purchase one of our products:</h2>
+    <form action = "#" name = "basketForm" onsubmit = "return(validate());">
+
+      <label for = "Product">Product :</label>
+      <br><br>
+      <select name = "Product">
+        <option value = "-1" selected>[Choose Product]</option>
+        <option value = "1">Brownie</option>
+        <option value = "2">Chocolate Cookie</option>
+        <option value = "3">Chocolate Chip Cookie</option>
+        <option value = "4">Cupcake</option>
+        <option value = "5">Chocolate</option>
+        <option value = "6">Vegan Chocolate</option>
+       </select>
+       <br><br>
+
+       <label for = "firstName">First Name :</label>
+       <br><br>
+       <input type = "text" name = "firstName">
+       <br><br>
+
+       <label for = "secondName">Second Name :</label>
+       <br><br>
+       <input type = "text" name = "secondName">
+       <br><br>
+
+       <label for = "Email">Email :</label>
+       <br><br>
+       <input type = "text" name = "Email">
+       <br><br>
+
+       <label for = "Address">Address</label>
+       <br><br>
+       <input type = "text" name = "Address">
+       <br><br>
+
+       <label for = "Postcode">Postcode :</label>
+       <br><br>
+       <input type = "text" name = "Postcode"
+          pattern = "[A-Za-z]{1,2}[0-9Rr][0-9A-Za-z]? [0-9][ABD-HJLNP-UWZabd-hjlnp-uw-z]{2}">
+       <br><br>
+
+       <label for = "creditcardNumber">Credit Card Number :</label>
+       <br><br>
+       <input type = "text" name = "creditcardNumber">
+       <br><br>
+
+       <label for = "phoneNumber">Phone Number (not required) :</label>
+       <br><br>
+       <input type = "text" name = "phoneNumber">
+       <br><br>
+
+         <input type = "submit" value = "Submit" /></td>
+
+       </form>
+   </div>
+
+   </div>
+
+<div class = "col-gap">
+
+</div>
+
+</div>
+
+<div id = "footer">
+  <h1>Choc o Lat</h1>
+ </div>
+
+<!--JS files below here-->
+  <script src = "JavaScript/form.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <link rel = "stylesheet" type = "text/css" href = "CSS/other.css">
+
+  <meta charset = "UTF-8">
+  <meta name = "description" content = "Delicious, high-quality Belgian chocolates made by a hard-working and dedicated business">
+  <meta name = "keywords" content = "Belgian chocolate, high quality, delicious, tasty, vegetarian, business">
+  <meta name = "author" content = "Jessica">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+
+  <title>Products</title>
+
+</head>
+
+<body>
+
+<h1 id = "title">Products</h1>
+
+<!-- Navigation between pages -->
+<div class = "mainNav">
+  <a class = "button-1" href = "index.html">Welcome</a>
+  <a class = "button-2" href = "basket.html">Basket</a>
+  <a class = "button-3" href = "questions.html">Questions</a>
+  <a class = "button-4" href = "aboutUs.html">About Us</a>
+</div>
+
+
+<div class = "row-1">
+
+  <div class = "col-4">
+    <h1 id = "offer"></h1>
+    <br><br><br><br>
+  </div>
+
+  <div class = "col-4">
+    <h2>All orders outside of the Uk have a standard shipping price of £2.99</h2>
+    <br><br>
+  </div>
+
+</div>
+
+<div class = "row-2">
+
+  <!-- First row of product images -->
+  <div class = "col-1">
+
+    <div class = "box">
+      <button class = "imgButton" onclick = "brownieInfo()"><img src = "Assets/brownie.PNG" alt = "brownie"></button>
+    </div>
+
+    <div class = "review">
+
+    </div>
+
+  </div>
+
+  <div class = "col-2">
+
+    <div class = "box">
+     <button class = "imgButton" onclick = "chocCookieInfo()"><img src = "Assets/chocCookie.PNG" alt = "chocCookie"></button>
+    </div>
+
+  </div>
+
+  <div class = "col-3">
+
+    <div class = "box">
+     <button class = "imgButton" onclick = "cookieInfo()"><img src = "Assets/cookie.PNG" alt = "cookie"></button>
+    </div>
+
+  </div>
+
+</div>
+
+<div class = "row-3">
+
+  <!-- First row of review buttons -->
+  <div class = "col-1">
+
+   <button onclick = "reviewBrownie()">Review Brownie</button>
+   <br><br>
+
+   <p1 id = "review1"></p1>
+
+  </div>
+
+ <div class = "col-2">
+
+   <button onclick = "reviewChocCookie()">Review Chocolate Cookie</button>
+   <br><br>
+
+   <p1 id = "review2"></p1>
+
+ </div>
+
+ <div class = "col-3">
+
+   <button onclick = "reviewCookie()">Review Chocolate Chip Cookie</button>
+   <br><br>
+
+   <p1 id = "review3"></p1>
+
+ </div>
+
+</div>
+
+<div class = "row-4">
+
+  <!-- Second row of product images -->
+  <div class = "col-1">
+
+    <div class = "box">
+     <button class = "imgButton" onclick = "cupcakeInfo()"><img src = "Assets/cupcake.PNG" alt = "cupcake"></button>
+    </div>
+
+  </div>
+
+  <div class = "col-2">
+
+    <div class = "box">
+     <button class = "imgButton" onclick = "chocInfo()"><img src = "Assets/raspChoc.PNG" alt = "choc"></button>
+    </div>
+
+
+
+  </div>
+
+  <div class = "col-3">
+
+    <div class = "box">
+     <button class = "imgButton" onclick = "veganChocInfo()"><img src = "Assets/veganChoc.PNG" alt = "veganChoc"></button>
+    </div>
+
+  </div>
+
+</div>
+
+<div class = "row-5">
+
+  <!-- Second row of review buttons -->
+  <div class = "col-1">
+
+   <button onclick = "reviewCupcake()">Review Cupcake</button>
+   <br><br>
+
+   <p1 id = "review4"></p1>
+   <br><br>
+ </div>
+
+ <div class = "col-2">
+
+   <button onclick = "reviewChocolate()">Review Chocolate</button>
+   <br><br>
+
+   <p1 id = "review5"></p1>
+   <br><br>
+ </div>
+
+ <div class = "col-3">
+
+  <button onclick = "reviewVeganChoc()">Review Vegan Chocolate</button>
+  <br><br>
+
+  <p1 id = "review6"></p1>
+  <br><br>
+
+ </div>
+
+</div>
+
+<div class = "holidayProducts">
+
+  <div>
+    <h2>Seasonal Products</h2>
+  </div>
+
+  <div>
+    <p1>We know that it may not be the right time to be celebrating all of the different holidays, but that doesn't mean we can't sell you these products! Our holiday themed products are avaliable everyday. So, whether it's christmas, easter or another holiday, you can find these products all year round. Enjoy!</p1>
+    <br><br><br>
+  </div>
+
+</div>
+
+
+<div class = "row-6">
+<!-- Third row of product images -->
+  <div class = "col-5">
+
+    <div class = "box">
+      <button class = "imgButton" onclick = "christmasCupcakeInfo()"><img src = "Assets/christmas themed cake2.png" alt = "christmasCupcake"></button>
+    </div>
+
+  </div>
+
+  <div class = "col-5">
+
+    <div class = "box">
+      <button class = "imgButton" onclick = "christmasChocInfo()"><img src = "Assets/santa themed chocolate2.png" alt = christmasChoc></button>
+    </div>
+
+  </div>
+
+</div>
+
+<div class = "row-7">
+<!-- third row of review buttons -->
+<div class = "col-5">
+
+  <button onclick = "reviewChristmasCupcake()">Review Christmas Cupcake</button>
+  <br><br>
+
+  <p1 id = "review7"></p1>
+  <br><br>
+
+</div>
+
+<div class = "col-5">
+
+  <button onclick = "reviewChristmasChoc()">Review Christmas Chocolate</button>
+  <br><br>
+
+  <p1 id = "review8"></p1>
+  <br><br>
+
+</div>
+
+</div>
+
+<div class = "row-8">
+<!-- fourth row of product images -->
+  <div class = "col-5">
+
+    <div class = "box">
+      <button class = "imgButton" onclick = "easterChocInfo()"><img src = "Assets/easter chocolate2.png" alt = "easterChoc"></button>
+    </div>
+
+  </div>
+
+  <div class = "col-5">
+
+    <div class = "box">
+      <button class = "imgButton" onclick = "heartCookieInfo()"><img src = "Assets/heart-shaped cookie2.png" alt = "heartCookie"></button>
+    </div>
+
+  </div>
+
+</div>
+
+<div class = "row-9">
+<!-- fourth row of review buttons -->
+<div class = "col-5">
+
+  <button onclick = "reviewEasterChoc()">Review Easter Chocolate</button>
+  <br><br>
+
+  <p1 id = "review9"></p1>
+  <br><br>
+
+</div>
+
+<div class = "col-5">
+
+  <button onclick = "reviewHeartCookie()">Review Heart Cookie</button>
+  <br><br>
+
+  <p1 id = "review10"></p1>
+  <br><br>
+
+</div>
+
+</div>
+
+
+<div id = "footer">
+  <h1>Choc o Lat</h2>
+</div>
+
+</body>
+
+<!-- JavaScript files below here -->
+<script src = "JavaScript/day.js"></script>
+
+<script src="JavaScript/alert.js"></script>
+
+<script src = "JavaScript/review.js"></script>
+
+</html>
